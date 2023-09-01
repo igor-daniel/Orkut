@@ -218,3 +218,62 @@ li .icons {
   flex-direction: column;
   align-items: center;
 }
+
+@media(max-width: 480px) {
+  nav {
+    display: none;
+  }
+
+  .input {
+    display: none;
+  }
+
+  .perfil p {
+    display: none;
+  }
+
+  .container {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .perfil-desc div:first-child {
+    width: 80vw;
+  }
+
+  .delet {
+    margin-top: 15px;
+    margin-bottom: 30px;
+  }
+
+  .listas {
+    width: 70vw;
+    margin-bottom: 30px;
+  }
+
+  .listas h1 {
+    font-size: 22px;
+  }
+
+  .bloco-verde {
+    font-size: 14px;
+  }
+
+  .likes {
+    margin: 20px 0;
+  }
+
+  .atributos p,
+  .atributos strong,
+  .interesses p {
+    font-size: 14px;
+  }
+
+  .interesses li {
+    font-size: 11px;
+  }
+
+  .asides aside {
+    width: 70vw;
+  }
+}
