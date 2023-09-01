@@ -72,6 +72,7 @@ header .limite {
   width: 40px;
 }
 
+/* fim do header */
 main {
   background-color: #d9e6f7;
 }
@@ -119,4 +120,101 @@ main {
   font-size: 18px;
   color: #ed2590;
   font-weight: 500;
+}
+
+.listas {
+  background-color: #fdfeff;
+  flex: 1;
+  margin: 0 30px;
+  border-radius: 25px;
+  padding: 30px;
+  color: #4b4b4b;
+}
+
+.listas h1 {
+  font-size: 26px;
+}
+
+.listas .bloco-verde {
+  background-color: #eff3f8;
+  margin: 10px 0;
+  padding: 10px;
+}
+
+.listas .likes {
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+}
+
+li .icons {
+  margin-top: 5px;
+  margin-bottom: 10px;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.atributos li {
+  padding: 10px 0;
+  display: flex;
+  gap: 20px;
+  list-style: none;
+}
+
+.atributos p {
+  color: #b4aeae;
+}
+
+.atributos strong {
+  color: #4b4b4b;
+}
+
+.interesses {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  list-style: none;
+  margin: 13px 0;
+}
+
+.interesses li {
+  border: 1px solid #ed2590;
+  border-radius: 15px;
+  padding: 5px 10px;
+}
+
+.pink {
+  color: #ed2590;
+}
+
+.asides aside {
+  width: 280px;
+  background-color: #fdfeff;
+  border-radius: 20px;
+  padding: 30px;
+  margin-bottom: 30px;
+}
+
+.asides .aside-title {
+  display: flex;
+  justify-content: space-between;
+}
+
+.asides .aside-title h3 {
+  font-size: 20px;
+  color: #4b4b4b;
+}
+
+.users {
+  margin-top: 20px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 30px;
+}
+
+.users .user {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
